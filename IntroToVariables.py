@@ -43,3 +43,38 @@ print(f'Your GPA is: {gpa}')
 print(f'You ran {distance} km')
 print(f'Are you a student: {is_student}')
 print(f'Are you tall: {am_tall}')
+
+# Typecasting Tutorial
+
+# Typecasting = the process of converting a varaible from one datatype to another
+# str(), int(), float(), bool()
+
+name = "Bro Code"
+age = 25
+gpa = 3.2
+is_student = True
+
+# below print statment will print out the datatype of the variable being passed in 
+# as an arugment to the type function
+print(type(age))
+print(type(name))
+print(type(is_student))
+
+# We can manually typecast a varaible to another datatype by using the datatype
+# varaible functions
+# below we are typecasting a float varaible (gpa) into a int version (gpa)
+gpa = int(gpa)
+print(f'Your gpa is: {gpa}')
+age = float(age)
+print(f'Your gpa is: {age}')
+
+age = str(age)
+
+print(type(age))
+
+name = bool(name)
+print(name)
+
+# if we typecast a String into a boolean, like above, then the result of the
+# boolean varible will always be True. UNLESS THE STRING PEREVIOSULY WAS EMPTY RESULTING
+#IN A FALSE VALUE
