@@ -4,7 +4,7 @@
             # Always Returns the entered data as a STRING
 # Similiar to scan function from Java
 
-# Instead of using a print statment befoe the function to prompt the user
+# Instead of using a print statment before the function to prompt the user
 # what type of info to enter via the keyboard, we can pass in the string as a 
 # param to the input function itself.
 
