@@ -6,7 +6,7 @@
 
 # Instead of using a print statment before the function to prompt the user
 # what type of info to enter via the keyboard, we can pass in the string as a 
-# param to the input function itself.
+# 'param' to the input function itself.
 
 # Below we are prompting a user to enter their name and have it get stored in
 # a string varaible called 'name
@@ -33,3 +33,15 @@ length = float(input("Enter the length: "))
 width = float(input("Enter the width: "))
 area = length * width
 print(f'The area is {area} cm')
+
+# Matlibs game!!!!
+print("Welcome to MadLibs!\n\n")
+adjective1 = input("Enter an adjective (description): ")
+noun1 = input("Enter a noun (person, place or thing): ")
+adjective2 = input("Enter another adjective: ")
+verb1 = input("Enter a verb ending with 'ing' (action word): ")
+adjective3 = input("Enter one last adjective: ")
+print(f"Today I went to a {adjective1} zoo.")
+print(f"In an exhibit, I saw a {noun1}")
+print(f"{noun1} was {adjective1} {adjective2} and {verb1}")
+print(f"I was {adjective3}!")

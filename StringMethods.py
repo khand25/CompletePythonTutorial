@@ -25,7 +25,7 @@ print(name.isalpha())
 # Counts total number of frequencys of substring or character passed in as
 # an argument to the count function
 print(name.count("a"))
-# replace each first argument charater with the second argument character
+# replace each first argument character with the second argument character
 print(name.replace("a","o"))
 print(name)
 # concateneate the same String with each other n number of times where n
