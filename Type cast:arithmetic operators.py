@@ -86,4 +86,4 @@ print(f"The circumference of the circle is: {round(circumference,2)}") #rounds t
 # Calculate area of a circle
 # formula: A = pi * r^2
 area = math.pi * math.pow(radius,2)
-print(f"The area of the circle is: {round(area,2)}") #rounds
+print(f"The area of the circle is: {round(area,2)}") #round
