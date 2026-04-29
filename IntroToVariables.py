@@ -74,6 +74,7 @@ print(type(age))
 
 name = bool(name)
 print(name)
+print ('Apples are good for you!')
 
 # if we typecast a String into a boolean, like above, then the result of the
 # boolean varible will always be True. UNLESS THE STRING PEREVIOSULY WAS EMPTY RESULTING
